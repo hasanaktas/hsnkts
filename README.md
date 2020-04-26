@@ -1,12 +1,14 @@
 # [hsnkts.com](https://hsnkts.now.sh/)
 
-Project of hsnkts.com
 ![hsnkts.com](https://i.ibb.co/qC7PXX9/hasan.png)
 
 #### Features:
 
+- [x] Next Js Static Page
 - [x] Material Custom Theme
+- [x] Custom .babelrc
 - [x] Custom Buttons and Links
+- [x] Custom Cards
 - [x] Particles Js Background
 - [x] Localization (English-Turkish) (Default Browser Language)
 - [x] Skeleton
@@ -14,7 +16,11 @@ Project of hsnkts.com
 
 #### Used technologies
 
-- React Js
-- Next Js
+- React JS
+- Next JS
 - Material UI
-- Particles Js
+- Particles JS
+
+#### Dev Dependencies
+
+- babel-plugin-inline-react-svg
