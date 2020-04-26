@@ -1,6 +1,6 @@
 # hsnkts.com
 
-Project of hasanaktas.com
+Project of [hsnkts.com]: https://hsnkts.now.sh/
 
 ### Used technologies
 
