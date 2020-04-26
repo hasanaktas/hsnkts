@@ -1,14 +1,13 @@
-import { createMuiTheme } from '@material-ui/core/styles'
-import { red } from '@material-ui/core/colors'
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles'
+import breakpoints from './breakpoints'
 import palette from './palette'
 import typography from './typography'
-// Create a theme instance.
-const theme = createMuiTheme({
+import shape from './shape'
+let theme = createMuiTheme({
   palette,
   typography,
-  shape: {
-    borderRadius: 8,
-  },
+  breakpoints,
+  shape,
   overrides: {
     MuiPaper: {
       elevation8: {
@@ -25,15 +24,8 @@ const theme = createMuiTheme({
       },
     },
   },
-  breakpoints: {
-    values: {
-      xs: 0,
-      sm: 400,
-      md: 600,
-      lg: 800,
-      xl: 1000,
-    },
-  },
 })
+
+theme = responsiveFontSizes(theme)
 
 export default theme
