@@ -5,9 +5,6 @@ export const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     fontSize: 16,
 
-    [theme.breakpoints.down('sm')]: {
-      fontSize: 14,
-    },
     '&:hover': {
       color: theme.palette.text.primary,
       textDecoration: 'none',

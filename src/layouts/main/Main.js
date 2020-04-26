@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { Header, Footer } from './components'
 import { Container } from '@material-ui/core'
 import { useStyles } from './Main.styles'

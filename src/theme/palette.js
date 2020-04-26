@@ -11,10 +11,9 @@ export default {
     main: '#0070F3',
   },
   secondary: {
-    contrastText: white,
-    dark: colors.blue[900],
-    main: colors.blue['A400'],
-    light: colors.blue['A400'],
+    contrastText: black,
+
+    main: white,
   },
   error: {
     contrastText: white,

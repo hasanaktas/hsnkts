@@ -1,80 +1,92 @@
 import palette from './palette'
 
 export default {
-  fontFamily: 'Ubuntu, Arial',
+  fontFamily: 'Ubuntu',
   h1: {
     color: palette.text.primary,
     fontWeight: 500,
     fontSize: '64px',
     letterSpacing: '-0.24px',
+    fontFamily: 'Ubuntu',
   },
   h2: {
     color: palette.text.primary,
     fontWeight: 500,
     fontSize: '48px',
     letterSpacing: '-0.24px',
+    fontFamily: 'Ubuntu',
   },
   h3: {
     color: palette.text.primary,
     fontWeight: 500,
     fontSize: '32px',
     letterSpacing: '-0.06px',
+    fontFamily: 'Ubuntu',
   },
   h4: {
     color: palette.text.primary,
     fontWeight: 500,
     fontSize: '20px',
     letterSpacing: '-0.06px',
+    fontFamily: 'Ubuntu',
   },
   h5: {
     color: palette.text.primary,
     fontWeight: 500,
     fontSize: '16px',
     letterSpacing: '-0.05px',
+    fontFamily: 'Ubuntu',
   },
   h6: {
     color: palette.text.primary,
     fontWeight: 500,
     fontSize: '14px',
     letterSpacing: '-0.05px',
+    fontFamily: 'Ubuntu',
   },
   subtitle1: {
     color: palette.text.primary,
     fontSize: '16px',
     letterSpacing: '-0.05px',
+    fontFamily: 'Ubuntu',
   },
   subtitle2: {
     color: palette.text.secondary,
     fontWeight: 400,
     fontSize: '14px',
     letterSpacing: '-0.05px',
+    fontFamily: 'Ubuntu',
   },
   body1: {
     color: palette.text.primary,
     fontSize: '14px',
     letterSpacing: '-0.05px',
+    fontFamily: 'Ubuntu',
   },
   body2: {
     color: palette.text.secondary,
     fontSize: '12px',
     letterSpacing: '-0.04px',
+    fontFamily: 'Ubuntu',
   },
   button: {
     color: palette.text.primary,
     fontSize: '16px',
     textTransform: 'none',
+    fontFamily: 'Ubuntu',
   },
   caption: {
     color: palette.text.secondary,
     fontSize: '11px',
     letterSpacing: '0.33px',
+    fontFamily: 'Ubuntu',
   },
   overline: {
     color: palette.text.secondary,
     fontSize: '11px',
     fontWeight: 500,
     letterSpacing: '0.33px',
-
+    fontFamily: 'Ubuntu',
     textTransform: 'none',
   },
 }

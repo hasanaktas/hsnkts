@@ -17,21 +17,22 @@ const MyApp = (props) => {
   }, [])
 
   return (
-    <LocalizationProvider>
-      <Head>
-        <title>My page</title>
-        <meta
-          name='viewport'
-          content='minimum-scale=1, initial-scale=1, width=device-width'
-        />
-      </Head>
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <LocalizationProvider>
+        <Head>
+          <title>Hasan Aktas</title>
+          <meta
+            name='viewport'
+            content='minimum-scale=1, initial-scale=1, width=device-width'
+          />
+        </Head>
+
         <Layout>
           <CssBaseline />
           <Component {...pageProps} />
         </Layout>
-      </ThemeProvider>
-    </LocalizationProvider>
+      </LocalizationProvider>
+    </ThemeProvider>
   )
 }
 

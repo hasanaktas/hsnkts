@@ -1,6 +1,6 @@
 import React from 'react'
 import clsx from 'clsx'
-import Link from './Navigation.Link'
+import { Link } from '../../../../../../components'
 import { useRouter } from 'next/router'
 import { useStyles } from './Navigation.styles'
 import { useLocalization } from '../../../../../../localization'
@@ -8,21 +8,20 @@ const Navigation = () => {
   const classes = useStyles()
   const router = useRouter()
   const localization = useLocalization()
-  const isTR = localization.language === 'Türkçe'
 
   const routes = [
     {
-      title: isTR ? 'Hakkımda' : 'About',
+      title: localization.navigation.about,
       href: '/',
     },
 
     {
-      title: isTR ? 'Yeteneklerim' : 'My Skills',
+      title: localization.navigation.skills,
       href: '/skills',
     },
 
     {
-      title: isTR ? 'Portfolyo' : 'Portfolio',
+      title: localization.navigation.portfolio,
       href: '/portfolio',
     },
   ]

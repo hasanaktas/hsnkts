@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from '@material-ui/core'
-import Link from '../header/components/navigation/Navigation.Link'
+import { Link } from '../../../../components'
 import { useStyles } from './Footer.styles'
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
       </Typography>
       <Typography variant='body2' color='textSecondary' align='center'>
         {'Copyright © '}
-        <Link color='inherit' href='https://hsnkts.com/'>
+        <Link color='inherit' href='/'>
           hsnkts.com
         </Link>{' '}
         {new Date().getFullYear()}

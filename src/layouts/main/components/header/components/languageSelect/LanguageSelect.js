@@ -9,8 +9,8 @@ import {
 } from '@material-ui/core'
 import TranslateIcon from 'mdi-material-ui/Translate'
 import DownIcon from 'mdi-material-ui/ChevronDown'
-import TurkishIcon from '../../assets/turkish.svg'
-import EnglishIcon from '../../assets/english.svg'
+import TurkishIcon from '../../../../../../assets/svgs/turkish.svg'
+import EnglishIcon from '../../../../../../assets/svgs/english.svg'
 import {
   useDispatchLocalization,
   useLocalization,

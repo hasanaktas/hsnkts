@@ -1,7 +1,7 @@
 import React from 'react'
 import { Toolbar, Container, AppBar, Hidden } from '@material-ui/core'
 import { useRouter } from 'next/router'
-import Logo from './assets/hsnkts.svg'
+import Logo from '../../../../assets/svgs/hasanaktas.svg'
 import { useStyles } from './Header.styles'
 import { LanguageSelect, Navigation } from './components'
 

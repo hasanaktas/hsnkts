@@ -3,6 +3,20 @@ import { Grid } from '@material-ui/core'
 import { MainLayout } from '../layouts'
 import { SkillCard } from '../components'
 
+export default function Index() {
+  return (
+    <Grid container spacing={2}>
+      {mySkills.map((item, index) => (
+        <Grid key={index} item xs={12} sm={6} md={4} lg={3}>
+          <SkillCard skill={item} />
+        </Grid>
+      ))}
+    </Grid>
+  )
+}
+
+Index.layout = MainLayout
+
 const mySkills = [
   {
     title: 'Html 5',
@@ -45,6 +59,16 @@ const mySkills = [
     value: 85,
   },
   {
+    title: 'Material UI',
+    company: 'Google mui-org',
+    value: 95,
+  },
+  {
+    title: 'Ant Design',
+    company: 'XTech',
+    value: 80,
+  },
+  {
     title: 'Node JS',
     company: 'Ryan Dahl',
     value: 50,
@@ -56,7 +80,7 @@ const mySkills = [
   },
   {
     title: 'GraphQL',
-    company: '-',
+    company: 'Facebook',
     value: 80,
   },
   {
@@ -95,17 +119,3 @@ const mySkills = [
     value: 60,
   },
 ]
-
-export default function Index() {
-  return (
-    <Grid container spacing={2}>
-      {mySkills.map((item, index) => (
-        <Grid key={index} item xs={12} sm={6} md={4} lg={3}>
-          <SkillCard skill={item} />
-        </Grid>
-      ))}
-    </Grid>
-  )
-}
-
-Index.layout = MainLayout
