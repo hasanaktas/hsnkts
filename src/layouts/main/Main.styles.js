@@ -12,7 +12,7 @@ export const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(2),
   },
   particles: {
-    position: 'absolute',
+    position: 'fixed',
     left: 0,
     right: 0,
     top: 0,
