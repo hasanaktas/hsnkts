@@ -1,6 +1,6 @@
-# hsnkts.com
+# []: https://hsnkts.now.sh/ "hsnkts.com"
 
-Project of [hsnkts.com]: https://hsnkts.now.sh/
+Project of hsnkts.com
 
 ### Used technologies
 
