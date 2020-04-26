@@ -5,12 +5,16 @@ Project of hsnkts.com
 
 #### Features:
 
-- [x] Localization
+- [x] Material Custom Theme
+- [x] Custom Buttons and Links
+- [x] Particles Js Background
+- [x] Localization (English-Turkish) (Default Browser Language)
 - [x] Skeleton
 - [ ] Gallery
 
 #### Used technologies
 
+- React Js
 - Next Js
 - Material UI
 - Particles Js
