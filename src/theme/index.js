@@ -8,6 +8,7 @@ let theme = createMuiTheme({
   typography,
   breakpoints,
   shape,
+  spacing: 10,
   overrides: {
     MuiPaper: {
       elevation8: {

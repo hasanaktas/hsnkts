@@ -27,7 +27,7 @@ const MainLayout = (props) => {
           },
         }}
       />
-      <Container className={classes.main} maxWidth='xl'>
+      <Container maxWidth='xl' className={classes.main}>
         {children}
       </Container>
 

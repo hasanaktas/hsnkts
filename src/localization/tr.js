@@ -12,4 +12,22 @@ export default {
     skills: 'Yeteneklerim',
     portfolio: 'Portfolyo',
   },
+  serviceTitle: 'Hizmetler',
+  services: [
+    {
+      title: ' Web Tasarım',
+      content:
+        'Ne istediğinizi çok iyi biliyor ve beklentilerinizden fazlasını kurumsal kimliğinize uygun, şık, mobil uyumlu, dinamik, kaliteli tasarımlarla sunuyorum.',
+    },
+    {
+      title: ' Web Geliştirme',
+      content:
+        'Kurum ve firmalara maliyetlerini düşürücek, zaman tasarrufu sağlayacak, yeni kazanımlar sağlayacak yazılımları hayata geçiriyorum.',
+    },
+    {
+      title: 'Mobil Uygulama',
+      content:
+        'Mobil uygulamanız ile milyonlarca kullanıcıya ulaşmak ve pazarda yerinizi almak için iletişime geçerek Android ve IOS mobil uygulama sahibi olabilirsiniz.',
+    },
+  ],
 }

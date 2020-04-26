@@ -94,6 +94,11 @@ const mySkills = [
     value: 85,
   },
   {
+    title: 'Unity',
+    company: 'Unity Technologies',
+    value: 55,
+  },
+  {
     title: 'Photoshop',
     company: 'Adobe',
     value: 80,
@@ -114,8 +119,23 @@ const mySkills = [
     value: 95,
   },
   {
+    title: 'After Effects',
+    company: 'Adobe',
+    value: 30,
+  },
+  {
     title: '3ds Max',
     company: 'Autodesk',
     value: 60,
+  },
+  {
+    title: 'Maya',
+    company: 'Autodesk',
+    value: 30,
+  },
+  {
+    title: 'ZBrush',
+    company: 'Pixologic',
+    value: 45,
   },
 ]
