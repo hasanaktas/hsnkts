@@ -1,4 +1,4 @@
-# []: https://hsnkts.now.sh/ "hsnkts.com"
+# []: (https://hsnkts.now.sh/ "hsnkts.com")
 
 Project of hsnkts.com
 
