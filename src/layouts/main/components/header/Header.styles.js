@@ -4,7 +4,7 @@ export const useStyles = makeStyles((theme) => ({
   appBar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
     backgroundColor: 'rgba(255,255,255,0.5)',
-    backdropFilter: 'blur(10px)',
+    backdropFilter: 'blur(4px)',
   },
 
   toolBar: {

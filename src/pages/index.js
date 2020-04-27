@@ -77,13 +77,14 @@ export default function Index() {
         </Grid>
         <Grid item container xs={12} spacing={2}>
           {social.map((item) => (
-            <Grid key={item.title} item xs={4}>
+            <Grid key={item.title} item xs={12} sm={12} md={4}>
               <Button
                 startIcon={<item.icon />}
                 variant='outlined'
                 color='primary'
                 fullWidth
                 href={item.href}
+                target='_blank'
               >
                 {item.title}
               </Button>

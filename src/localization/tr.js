@@ -1,4 +1,8 @@
 export default {
+  footer: {
+    title: 'Bu site Hasan Aktaş tarafından yapılmıştır.',
+    copyright: 'Tüm Hakları Saklıdır © ',
+  },
   about: {
     hi: 'Merhaba,',
     im: 'Ben Hasan Aktaş',

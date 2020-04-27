@@ -1,4 +1,8 @@
 export default {
+  footer: {
+    title: 'Designed & Coded by Hasan Aktas',
+    copyright: 'Copyright © ',
+  },
   about: {
     hi: 'Hi,',
     im: `I'm Hasan Aktas`,

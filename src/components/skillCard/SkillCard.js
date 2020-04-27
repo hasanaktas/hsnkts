@@ -15,7 +15,7 @@ const SkillCard = (props) => {
   useEffect(() => {
     setTimeout(() => {
       setShow(true)
-    }, 1200)
+    }, 500)
   }, [])
   return (
     <Card elevation={8}>

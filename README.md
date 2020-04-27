@@ -6,6 +6,7 @@
 
 - [x] Next Js Static Page
 - [x] Material Custom Theme
+- [x] Responsive Font Size
 - [x] Custom .babelrc
 - [x] Custom Buttons and Links
 - [x] Custom Cards
