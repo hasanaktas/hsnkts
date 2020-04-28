@@ -1,9 +1,9 @@
 export default {
   values: {
     xs: 0,
-    sm: 400,
-    md: 600,
-    lg: 800,
-    xl: 1000,
+    sm: 500,
+    md: 700,
+    lg: 900,
+    xl: 1100,
   },
 }

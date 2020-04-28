@@ -7,21 +7,15 @@ import Slider from '@material-ui/core/Slider'
 import { useStyles, useSliderStyles } from './SkillCard.styles'
 
 const SkillCard = (props) => {
-  const { skill } = props
-  const [show, setShow] = useState(false)
+  const { skill, loading } = props
   const styles = useStyles()
   const sliderStyles = useSliderStyles()
 
-  useEffect(() => {
-    setTimeout(() => {
-      setShow(true)
-    }, 500)
-  }, [])
   return (
     <Card elevation={8}>
       <CardActionArea className={styles.card}>
         <Box>
-          {!show ? (
+          {loading ? (
             <>
               <Skeleton
                 className={styles.heading}

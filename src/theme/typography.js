@@ -67,7 +67,7 @@ export default {
   },
   caption: {
     color: palette.text.secondary,
-    fontSize: '11px',
+    fontSize: '13px',
     letterSpacing: '0.33px',
   },
   overline: {
