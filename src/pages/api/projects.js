@@ -58,11 +58,11 @@ const projects = [
       en: 'Mobile Soccer Game',
     },
     images: [
-      './assets/Simple-Soccer/Screen-0.jpg',
-      './assets/Simple-Soccer/Screen-1.jpg',
-      './assets/Simple-Soccer/Screen-2.jpg',
-      './assets/Simple-Soccer/Screen-3.jpg',
-      './assets/Simple-Soccer/Screen-4.jpg',
+      './assets/Simple-Soccer/screen-0.jpg',
+      './assets/Simple-Soccer/screen-1.jpg',
+      './assets/Simple-Soccer/screen-2.jpg',
+      './assets/Simple-Soccer/screen-3.jpg',
+      './assets/Simple-Soccer/screen-4.jpg',
     ],
   },
 ]
