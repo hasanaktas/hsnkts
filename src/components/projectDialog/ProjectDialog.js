@@ -1,28 +1,35 @@
-import React, { useState, useEffect } from 'react'
-import { Dialog, DialogTitle, DialogContent } from '@material-ui/core'
-import SwipeableViews from 'react-swipeable-views'
-import { autoPlay } from 'react-swipeable-views-utils'
-import { useStyles } from './ProjectDialog.styles'
+import React, { useState, useEffect } from "react";
+import {
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  Typography,
+  Link,
+} from "@material-ui/core";
+import SwipeableViews from "react-swipeable-views";
+import { autoPlay } from "react-swipeable-views-utils";
+import { useStyles } from "./ProjectDialog.styles";
 
-const AutoPlaySwipeableViews = autoPlay(SwipeableViews)
+const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const ProjectDialog = (props) => {
-  const { onClose, project, open } = props
-  const classes = useStyles()
-  const [activeStep, setActiveStep] = useState(0)
+  const { onClose, project, open } = props;
+  const classes = useStyles();
+  const [activeStep, setActiveStep] = useState(0);
 
   useEffect(() => {
-    setActiveStep(0)
-  }, [project])
+    setActiveStep(0);
+  }, [project]);
 
   const handleStepChange = (step) => {
-    setActiveStep(step)
-  }
+    setActiveStep(step);
+  };
 
-  if (!project) return null
+  if (!project) return null;
   return (
-    <Dialog onClose={onClose} open={open} fullWidth maxWidth='lg'>
+    <Dialog onClose={onClose} open={open} fullWidth maxWidth="lg">
       <DialogTitle>{project.title}</DialogTitle>
+
       <DialogContent className={classes.content}>
         <AutoPlaySwipeableViews
           index={activeStep}
@@ -37,9 +44,14 @@ const ProjectDialog = (props) => {
             </div>
           ))}
         </AutoPlaySwipeableViews>
+        {project.link && (
+          <Link style={{ fontSize: 16 }} href={project.link}>
+            {project.link}
+          </Link>
+        )}
       </DialogContent>
     </Dialog>
-  )
-}
+  );
+};
 
-export default ProjectDialog
+export default ProjectDialog;

@@ -1,21 +1,22 @@
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme) => ({
   content: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column",
   },
   swiper: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     paddingBottom: theme.spacing(2),
   },
   img: {
-    maxWidth: '100%',
+    maxWidth: "100%",
     borderRadius: theme.shape.borderRadius,
-    height: 'auto',
-    maxHeight: '70vh',
+    height: "auto",
+    maxHeight: "70vh",
   },
-}))
+}));
