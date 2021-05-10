@@ -1,5 +1,25 @@
 const projects = [
   {
+    icon: "./assets/Sepetteslim/icon.png",
+    title: "Sepetteslim",
+
+    mobile: {
+      android:
+        "https://play.google.com/store/apps/details?id=com.sepetteslim&hl=tr&gl=US",
+      ios: "https://apps.apple.com/tr/app/sepet-teslim/id1483814557?l=tr",
+    },
+
+    content: {
+      en: "E-Commerce",
+      tr: "E-Ticaret",
+    },
+    images: [
+      "./assets/Sepetteslim/Screenshot-1.webp",
+      "./assets/Sepetteslim/Screenshot-2.webp",
+      "./assets/Sepetteslim/Screenshot-3.webp",
+    ],
+  },
+  {
     icon: "./assets/Netan/netan-logo.jpg",
     title: "Netan",
     link: "https://netan.com.tr/",

@@ -46,7 +46,18 @@ const ProjectDialog = (props) => {
         </AutoPlaySwipeableViews>
         {project.link && (
           <Link style={{ fontSize: 16 }} href={project.link}>
-            {project.link}
+            Siteye git
+          </Link>
+        )}
+
+        {project.mobile?.android && (
+          <Link style={{ fontSize: 16 }} href={project.mobile.android}>
+            Google Play (Android)
+          </Link>
+        )}
+        {project.mobile?.ios && (
+          <Link style={{ fontSize: 16 }} href={project.mobile.ios}>
+            App Store (Ios)
           </Link>
         )}
       </DialogContent>
