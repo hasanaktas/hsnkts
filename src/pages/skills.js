@@ -10,7 +10,7 @@ const Skills = () => {
   const { data, error } = useSwr("/api/skills", fetcher);
 
   useEffect(() => {
-    window.postMessage(
+    window.top.postMessage(
       {
         msg: "islem tamam",
       },
