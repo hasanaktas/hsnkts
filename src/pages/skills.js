@@ -1,14 +1,20 @@
-import React from 'react'
-import useSwr from 'swr'
-import { Grid } from '@material-ui/core'
-import { MainLayout } from '../layouts'
-import { SkillCard } from '../components'
+import React, { useEffect } from "react";
+import useSwr from "swr";
+import { Grid } from "@material-ui/core";
+import { MainLayout } from "../layouts";
+import { SkillCard } from "../components";
 
-const fetcher = (url) => fetch(url).then((res) => res.json())
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Skills = () => {
-  const { data, error } = useSwr('/api/skills', fetcher)
-  if (error) return null
+  const { data, error } = useSwr("/api/skills", fetcher);
+
+  useEffect(() => {
+    window.postMessage({
+      msg: "islem tamam",
+    });
+  }, []);
+  if (error) return null;
   if (!data)
     return (
       <Grid container spacing={2}>
@@ -18,7 +24,7 @@ const Skills = () => {
           </Grid>
         ))}
       </Grid>
-    )
+    );
 
   return (
     <Grid container spacing={2}>
@@ -28,9 +34,9 @@ const Skills = () => {
         </Grid>
       ))}
     </Grid>
-  )
-}
+  );
+};
 
-Skills.layout = MainLayout
+Skills.layout = MainLayout;
 
-export default Skills
+export default Skills;
